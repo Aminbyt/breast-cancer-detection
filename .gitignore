@@ -6,4 +6,5 @@ venv/
 *.csv
 *.xlsx
 .DS_Store
-data/
+data/*
+!data/.gitkeep
