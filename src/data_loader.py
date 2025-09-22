@@ -1,3 +1,4 @@
-import pandas as pd
-def load_data(path):
-pd.read_csv(path)
+import pandas as pd 
+
+def load_data(path=r"data/Breast_cancer_dataset.csv"):
+    return pd.read_csv(path)
